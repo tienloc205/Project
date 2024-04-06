@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1712323779 source:c:\code it1\game\function.cpp
+	"function.h"
+
+1712296738 c:\code it1\game\function.h
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<vector>
+
+1712325023 source:c:\code it1\game\main.cpp
+	"function.h"
+	"object.h"
+	"enemy.h"
+
+1711290390 c:\code it1\game\objet.h
+	"function.h"
+
+1712320772 source:c:\code it1\game\objet.cpp
+	"objet.h"
+	"function.h"
+
+1712325502 source:c:\code it1\game\enemy.cpp
+	"function.h"
+	"object.h"
+	"enemy.h"
+
+1712325502 c:\code it1\game\enemy.h
+	"function.h"
+	"object.h"
+
+1711290390 c:\code it1\game\object.h
+	"function.h"
+
+1712325023 source:c:\code it1\game\object.cpp
+	"object.h"
+	"function.h"
+
