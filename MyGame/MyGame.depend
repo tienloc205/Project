@@ -1,0 +1,156 @@
+# depslib dependency file v1.0
+1713336139 source:c:\code it1\mygame\function.cpp
+	"function.h"
+
+1713598427 c:\code it1\mygame\function.h
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<vector>
+	<cstdlib>
+	<ctime>
+	<string>
+	<SDL_messagebox.h>
+	<fstream>
+
+1713598427 source:c:\code it1\mygame\main.cpp
+	"function.h"
+	"object.h"
+	"init.h"
+
+1713190903 source:c:\code it1\mygame\object.cpp
+	"function.h"
+	"object.h"
+
+1713600139 c:\code it1\mygame\object.h
+	"function.h"
+
+1713336035 c:\code it1\mygame\init.h
+	"function.h"
+	"object.h"
+
+1713015201 source:c:\code it1\mygame\game.cpp
+
+1713014274 c:\code it1\mygame\game.h
+	"function.h"
+	"object.h"
+	"init.h"
+
+1713600139 source:c:\code it1\mygame\init.cpp
+	"function.h"
+	"object.h"
+	"init.h"
+
+1715334498 source:d:\code it1\mygame\function.cpp
+	"function.h"
+
+1715332660 d:\code it1\mygame\function.h
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<vector>
+	<cstdlib>
+	<ctime>
+	<string>
+	<SDL_messagebox.h>
+	<fstream>
+
+1715333200 source:d:\code it1\mygame\init.cpp
+	"function.h"
+	"object.h"
+	"init.h"
+
+1715163354 d:\code it1\mygame\object.h
+	"function.h"
+
+1715164832 d:\code it1\mygame\init.h
+	"function.h"
+	"object.h"
+
+1715507446 source:d:\code it1\mygame\main.cpp
+	"function.h"
+	"object.h"
+	"init.h"
+
+1715164094 source:d:\code it1\mygame\object.cpp
+	"function.h"
+	"object.h"
+
+1714881802 source:f:\code it1\mygame\function.cpp
+	"function.h"
+
+1714885686 f:\code it1\mygame\function.h
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<vector>
+	<cstdlib>
+	<ctime>
+	<string>
+	<SDL_messagebox.h>
+	<fstream>
+
+1714882556 source:f:\code it1\mygame\init.cpp
+	"function.h"
+	"object.h"
+	"init.h"
+
+1714832614 f:\code it1\mygame\object.h
+	"function.h"
+
+1714901480 f:\code it1\mygame\init.h
+	"function.h"
+	"object.h"
+
+1714903694 source:f:\code it1\mygame\main.cpp
+	"function.h"
+	"object.h"
+	"init.h"
+
+1714832244 source:f:\code it1\mygame\object.cpp
+	"function.h"
+	"object.h"
+
+1715333284 source:e:\code it1\mygame\function.cpp
+	"function.h"
+
+1715332660 e:\code it1\mygame\function.h
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<vector>
+	<cstdlib>
+	<ctime>
+	<string>
+	<SDL_messagebox.h>
+	<fstream>
+
+1715333200 source:e:\code it1\mygame\init.cpp
+	"function.h"
+	"object.h"
+	"init.h"
+
+1715163354 e:\code it1\mygame\object.h
+	"function.h"
+
+1715164832 e:\code it1\mygame\init.h
+	"function.h"
+	"object.h"
+
+1715333098 source:e:\code it1\mygame\main.cpp
+	"function.h"
+	"object.h"
+	"init.h"
+
+1715164094 source:e:\code it1\mygame\object.cpp
+	"function.h"
+	"object.h"
+
