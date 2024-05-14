@@ -9,7 +9,6 @@ TextObject text;
 int x_mouse, y_mouse;
 bool isMute = false;
 bool quit = false;
-bool showingDifficultyMenu = false;
 
 void Reset_Object()
 {
@@ -35,11 +34,11 @@ void Handle_Menu(SDL_Event event)
 
         if (isMute)
         {
-            LoadImage("start2.png", renderer, NULL);
+            LoadImage("start2.jpg", renderer, NULL);
         }
         else
         {
-            LoadImage("start1.png", renderer, NULL);
+            LoadImage("start1.jpg", renderer, NULL);
         }
         if (345 <= x_mouse && x_mouse <= SCREEN_WIDTH && 655 <= y_mouse && y_mouse <= SCREEN_HEIGHT && event.type == SDL_MOUSEBUTTONDOWN)
         {
@@ -56,10 +55,11 @@ void Handle_Menu(SDL_Event event)
         }
         if (80 <= x_mouse && x_mouse <= 80+240 && 270 <= y_mouse && y_mouse <= 270+50 && event.type == SDL_MOUSEBUTTONDOWN)
         {
-            //Init_Enemy(enemies);
-            LoadImage("difficulty.png", renderer, NULL);
-            //showingDifficultyMenu = false;
-            state = difficulty;
+//            //Init_Enemy(enemies);
+//            LoadImage("difficulty.png", renderer, NULL);
+//            //showingDifficultyMenu = false;
+//            state = difficulty;
+              state = play;
         }
 
         if (80 <= x_mouse && x_mouse <= 80+240 && 390 <= y_mouse && y_mouse <= 390+50 && event.type == SDL_MOUSEBUTTONDOWN)
@@ -67,14 +67,15 @@ void Handle_Menu(SDL_Event event)
             quit = true;
         }
     }
-    if (state == difficulty)
-    {
-        cout<<1;
-        LoadImage("difficulty.png", renderer, NULL);
-        if (event.key.keysym.sym == SDLK_d) ENEMY_NUMS = 6;
-        Init_Enemy(enemies);
-        state = play;
-    }
+//    if (state == difficulty)
+//    {
+//        cout<<1;
+//        LoadImage("difficulty.png", renderer, NULL);
+//        if (event.key.keysym.sym == SDLK_d) ENEMY_NUMS = 6;
+//        Init_Enemy(enemies);
+//        state = play;
+//    }
+
     if (state == play and event.key.keysym.sym == SDLK_RETURN)
     {
         state = pause;
@@ -129,7 +130,7 @@ int main(int argc, char* argv[])
     while (!quit)
     {
         SDL_GetMouseState(&x_mouse, &y_mouse);
-        //cout << x_mouse << " " << y_mouse << endl;
+        cout << x_mouse << " " << y_mouse << endl;
         while (SDL_PollEvent(&event)!=0)
         {
             if (event.type == SDL_QUIT) {quit = true;}

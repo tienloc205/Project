@@ -191,3 +191,39 @@
 	"function.h"
 	"object.h"
 
+1715673078 source:d:\game cua loc\project-main\project-main\mygame\function.cpp
+	"function.h"
+
+1715673367 d:\game cua loc\project-main\project-main\mygame\function.h
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<vector>
+	<cstdlib>
+	<ctime>
+	<string>
+	<fstream>
+
+1715673078 source:d:\game cua loc\project-main\project-main\mygame\init.cpp
+	"function.h"
+	"object.h"
+	"init.h"
+
+1715673078 d:\game cua loc\project-main\project-main\mygame\object.h
+	"function.h"
+
+1715673078 d:\game cua loc\project-main\project-main\mygame\init.h
+	"function.h"
+	"object.h"
+
+1715674416 source:d:\game cua loc\project-main\project-main\mygame\main.cpp
+	"function.h"
+	"object.h"
+	"init.h"
+
+1715673403 source:d:\game cua loc\project-main\project-main\mygame\object.cpp
+	"function.h"
+	"object.h"
+

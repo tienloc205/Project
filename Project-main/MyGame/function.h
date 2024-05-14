@@ -10,7 +10,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <string>
-#include <SDL_messagebox.h>
+//#include <SDL_messagebox.h>
 #include <fstream>
 #define start 0
 #define play 1

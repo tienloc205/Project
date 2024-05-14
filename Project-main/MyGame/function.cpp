@@ -1,7 +1,7 @@
 #include "function.h"
 int state = 0;
 int SHOOTER_HEALTH = 5;
-int ENEMY_NUMS = 8;
+int ENEMY_NUMS = 7;
 Mix_Music* background_sound = NULL;
 Mix_Chunk* bullet_sound = NULL;
 SDL_Window* window = SDL_CreateWindow(SCREEN_NAME.c_str(), SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_RESIZABLE);

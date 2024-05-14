@@ -64,7 +64,7 @@ void Bullet::Move(const int& x_des, const int& y_des, int y)
   {
     dy = y;
     rect.y += dy;
-    if (rect.y < y_des or )
+    if (rect.y < y_des or SHOOTER_HEALTH<=0)
     {
       active = false;
     }
